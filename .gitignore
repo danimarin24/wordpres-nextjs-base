@@ -1,0 +1,55 @@
+# Next.js / Node.js (web)
+web/node_modules/
+web/.next/
+web/.env.*
+web/package-lock.json
+web/yarn.lock
+web/bun.lockb
+
+# wordpress
+wordpress/wp-admin/
+wordpress/wp-includes/
+wordpress/wp-*          # wp-activate.php, wp-comments-post.php, etc.
+wordpress/license.txt
+wordpress/readme.html
+
+wordpress/wp-config.php
+wordpress/wp-config-*.php
+
+wordpress/.htaccess
+
+wordpress/wp-content/upgrade/
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+wordpress/wp-content/languages/
+wordpress/wp-content/backup-db/
+
+wordpress/wp-content/plugins/*
+# Uncomment the following line if you want to keep your own plugin!
+#!wordpress/wp-content/plugins/mi-plugin-personal/
+
+wordpress/wp-content/themes/*
+# Uncomment the following line if you want to keep your own theme!
+#!wordpress/wp-content/themes/mi-tema-personal/
+
+*.log
+*.sql
+*.sqlite
+
+# Docker env file
+.env
+
+# Nginx certs
+nginx/certs/*
+
+# Logs and temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
